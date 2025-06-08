@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: #f6f7f8;
+}
+
+
+footer{
+    background-color: #FFD700;
+}
+
+.remove-from-cart-btn{
+    background-color: rgb(212, 54, 54);
+    padding: 5px;
+    border-radius: 5px;
+    color: #FFF;
+}
+
+.add-to-cart-btn:active{
+    background-color: rgb(34 197 94 );
+    
+}
+.aviso-entrega{
+    color: rgb(212, 54, 54);
+}
+
+#menu{
+    padding-bottom: 20px;
+}
+
+.pix{
+    align-items: center;
+    text-align: center;
+    padding-bottom: 70px;
+}
+
+.pix a{
+    color: #1a81aa;
+}
